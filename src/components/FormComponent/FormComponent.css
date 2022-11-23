@@ -1,0 +1,49 @@
+/* Form-container */
+
+.Form-container {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.Form-container form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.Form-container form .errorMessage {
+    float: right;
+    color: red;
+}
+
+.Form-container form input,
+select {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 3px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    outline: none;
+    border: none;
+    border-right: 1px solid red;
+}
+
+.Form-container form .submit-btn {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #2ecc71;
+    color: #ffff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
